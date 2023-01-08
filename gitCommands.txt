@@ -1,0 +1,13 @@
+The 3 main parts of git are the WORKING DIRECTORY, the STAGING AREA, and  the REPOSITORY.
+When working on a file in the directory, the file is presented at the 'working directory' stage. After the work is done, the user enters the command <git add 
+[filename.extension]> to add the file to the staging area. Alternatively, the command <git add .> can be used in order to add all(.) files to the staging area. The 
+staging area is like the waiting room for files and directories that are waiting to be committed before being sent to the repository. To move the files and/or 
+directories from the staging area to the next stage to be committed, the command <git commit -m "the message"> is used. The '-m' option is what allows the user to 
+include a message in the commit. After the commit is done, in order to upload the work to the repository, the command <git push OR git push origin main> is used to push 
+the file/directory to the repository.
+
+<git status> allows us to view the status of our git works at all times.
+
+<git log> allows us view the logs of operations that have been done using git.
+
+<git clone "ssh key"> allows us to clone an online repository to our machine.
